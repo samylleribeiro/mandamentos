@@ -2,16 +2,21 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Os Mandamentos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <button id="btn-noturno" onclick="toggleDarkMode()">🌙</button>
-    <h1>Os Mandamentos da lei de Deus 📖 ✝️</h1>
-    <button onclick="verTodos()">Exibir os 10 Mandamentos</button>
-    <button onclick="gerarMandamentos()">Gerar Mandamentos para reflexão</button>
-    <button class="botao-voltar" onclick="voltar()">Voltar</button>
 
+    <h1>Os Mandamentos da lei de Deus 📖 ✝️</h1>
+
+   <div class="botoes">
+        <button onclick="verTodos()">Exibir os 10 Mandamentos</button>
+        <button onclick="gerarMandamentos()">Gerar Mandamentos para reflexão</button>
+        <button class="botao-voltar" onclick="voltar()">Voltar</button>
+    </div>
+    
     <h2 id="resultado"></h2>
 
     <script src="script.js"></script>
