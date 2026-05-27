@@ -64,11 +64,14 @@ button:active {
 
 /* Estilo especial para o botão de voltar */
 .botao-voltar {
-    background-color: #607D8B; 
+    background-color: #F8BBD0; /* Esse rosa clarinho lindo e suave */
+    color: #C2185B;            /* A letra em um rosa mais escurinho para dar leitura */
+    border: 2px solid #E91E63; /* A bordinha charmosa no tom dos botões de cima */
 }
 
 .botao-voltar:hover {
-    background-color: #455A64;
+    background-color: #F48FB1; /* Dá uma leve escurecida no rosa claro ao passar o mouse */
+    transform: scale(1.05);
 }
 
 /* ===== BOTÃO NOTURNO FLUTUANTE ===== */
